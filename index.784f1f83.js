@@ -1,0 +1,3 @@
+var e=document.querySelectorAll(".menu__list"),t=document.querySelector(".icon--close"),n=document.querySelector(".icon--menu");document.addEventListener("DOMContentLoaded",function(){n.addEventListener("click",function(){document.querySelector(".page").style.overflow="hidden"}),t.addEventListener("click",function(){document.querySelector(".page").style.overflow="auto"}),e.forEach(function(e){e.addEventListener("click",function(){document.querySelector(".page").style.overflow="auto"})})});var o=1;setInterval(function(){document.getElementById("radio"+o).checked=!0,++o>4&&(o=1)},5e3);//# sourceMappingURL=index.784f1f83.js.map
+
+//# sourceMappingURL=index.784f1f83.js.map
